@@ -160,10 +160,18 @@ text-decoration: none;
 }
 /*Slider*/
 
+.bx-viewport{
+
+    background: black;
+    border: none;
+
+}
+
 #slider img{
 
 width: 100%;
 height: auto;
+
 
 }
 
@@ -528,13 +536,12 @@ color: white;
    font-family: sans-serif;
     float: right;
     width: 510px;
-    height: 100px;
-
-    
-
-    
+    height: 100px;    
     
 }
+
+
+
 .icon{ 
 
 
@@ -543,8 +550,10 @@ color: white;
     cursor: pointer;    
     line-height: 170px;
     color:white;
-    font-size: 50px;
+    font-size: 40px;
     transition: all 300ms;
+    
+    
    
 }
 
@@ -556,7 +565,7 @@ color: white;
     font-family: sans-serif;
     color:white;
     border-bottom: 1px solid white;
- font-weight: normal;
+    font-weight: normal;
 
 
 }
@@ -564,44 +573,62 @@ color: white;
 .overlay{
 
     color: white;
-display: block;
-float: right;
-margin-right: 45px;
-
-
-
-font-family: sans-serif ;
-line-height: 170px;
-font-size: 50px;
-border-bottom: 1px solid white;
-
-
-}
-
-#redes .facebook{
-
-    margin-bottom: 10px;
     
+    float: right;
+    margin-right: 130px;
+    font-family: sans-serif ;
+    line-height: 170px;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+
 
 }
 
 
-#redes .facebook .icon:hover
+#facebook #bloq span{
+
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+
+
+
+#facebook #bloq #face:hover
+{
+
+
+font-size: 50px;
+color: #03FCD1;
+
+}
+
+#instagram #bloq span{
+
+    display:inline-block;
+    cursor: pointer;
+
+}
+
+#instagram #bloq #insta:hover
+{
+
+
+font-size: 50px;
+color: #03FCD1;
+
+}
+
+/*#redes .instagram .icon:hover
 {
 
 font-size: 60px;
 color: #03FCD1;
 
+}*/
 
-}
 
-#redes .instagram .icon:hover
-{
-
-font-size: 60px;
-color: #03FCD1;
-
-}
 
 
 
